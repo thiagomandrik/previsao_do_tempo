@@ -1,0 +1,9 @@
+.previsao__containerPrincipal{
+    background-color: rgba(216, 223, 226, 0.85);
+    border-radius: 0.5rem;
+}
+
+h1{
+    font-weight: 400;
+    color: #3f3e3e;
+}
