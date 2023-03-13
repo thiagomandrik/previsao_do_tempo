@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -48.5012,
+        "lat": -27.6146
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "nublado",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 297.39,
+        "feels_like": 298.04,
+        "temp_min": 297.39,
+        "temp_max": 298.72,
+        "pressure": 1014,
+        "humidity": 83
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.09,
+        "deg": 60
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1678743161,
+    "sys": {
+        "type": 2,
+        "id": 2012878,
+        "country": "BR",
+        "sunrise": 1678698817,
+        "sunset": 1678743220
+    },
+    "timezone": -10800,
+    "id": 6323121,
+    "name": "Florian\u00f3polis",
+    "cod": 200
+}
