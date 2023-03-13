@@ -1,15 +1,20 @@
+{% extends 'previsao_do_tempo/base.html' %}
+
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão do Tempo</title>
-</head>
-<body>
-    <h1>Deu certo!</h1>
-    <img src="{% static '/teste.jpg' %}">
-</body>
-</html>
+{% block style %}
+    <link rel="stylesheet" href="{% static 'previsao_do_tempo/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'previsao_do_tempo/css/container-principal/container-principal.css' %}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="w-75 h-75 p-5 text-center previsao__containerPrincipal">
+        <div class="d-flex justify-content-start align-items-center">
+            <img class="previsao__iconeTitulo" src="{% static 'previsao_do_tempo/icons/cloud-sun-solid.png' %}">
+            <h1 class="">Previsão do Tempo</h1>
+        </div>
+        <p>teste2</p>
+    </div>
+
+{% endblock %}

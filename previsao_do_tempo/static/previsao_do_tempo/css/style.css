@@ -1,0 +1,12 @@
+body {
+    font-family: 'Lora', serif;
+    background-image: url(../img/background.jpg);
+    background-color: #ff0000; /* cor de fundo */
+    height: 100vh;
+    background-repeat: no-repeat; /* não repetir a imagem de fundo */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
